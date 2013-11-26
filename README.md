@@ -45,7 +45,7 @@ Sample:
 <!-- after -->
 <label>
     <div class="easycheckradio easycheckradio-radio checked" data-name="color">
-        <input type="radio" name="color" value="blue">
+        <input type="radio" name="color" value="blue" checked>
         <div></div> <!-- this is the styled element. It stays below the INPUT so the click fires it's native event -->
     </div>
     Blue <!-- clicking here will also work, since we listen to the "change" event -->

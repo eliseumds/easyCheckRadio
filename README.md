@@ -16,7 +16,7 @@ jQuery custom checkbox and radio
 How to use
 --------------
 
-Include ```src/easyCheckRadio.css``` and ```src/easyCheckRadio.js```.
+Include ```src/css/easyCheckRadio.css``` and ```src/js/easyCheckRadio.js```.
 
 Then call it:
 

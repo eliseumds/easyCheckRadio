@@ -29,9 +29,10 @@
     $('body')
         .on('change', '.easycheckradio-radio-input', function() {
             var $siblings = $(this.form).find('.easycheckradio-radio[data-name="' + this.name + '"]');
-                        
+            
+            $siblings.removeClass('checked');
+            
             if (this.checked) {
-                $siblings.removeClass('checked');
                 $(this).closest('.easycheckradio').addClass('checked');
             }
         })

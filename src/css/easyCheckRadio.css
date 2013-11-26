@@ -32,6 +32,7 @@
 }
 .easycheckradio input[type="checkbox"]:focus + div,
 .easycheckradio input[type="radio"]:focus + div {
+  outline: 1px dotted #aaa;
   outline: 1px dotted rgba(0, 0, 0, 0.5);
 }
 .easycheckradio.easycheckradio-checkbox > div {

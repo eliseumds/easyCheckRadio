@@ -20,7 +20,7 @@ Include ```src/easyCheckRadio.css``` and ```src/easyCheckRadio.js```.
 Then call it:
 
 ```js
-$('input:radio, input:checkbox').easyCheckRadio({
+$('input[type=radio], input[type=checkbox]').easyCheckRadio({
     theme: 'myOptionalTheme'
 });
 ```

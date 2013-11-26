@@ -11,6 +11,7 @@ jQuery custom checkbox and radio
 * Easily customizable
 * jQuery and Zepto support
 * Uses delegated instead of direct events. Another reason not to change your current code
+* IE8+ support
 
 How to use
 --------------

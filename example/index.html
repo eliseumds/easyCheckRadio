@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if IE 6]>         <html class="no-js ie6 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js ie7 lt-ie9 lt-ie8">        <![endif]-->
+<!--[if IE 8]>         <html class="no-js ie8 lt-ie9">               <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js no-touch">                 <!--<![endif]-->
+    <head>
+        <title>easyCheckRadio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../src/css/easyCheckRadio.css">
+
+        <style>
+            body {
+                font-family: Arial;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <div class="control-group">
+                <h4>Selecione um país</h4>
+
+                <label>
+                    <input type="radio" name="country">
+                    Brasil
+                </label>
+                <label>
+                    <input type="radio" name="country" checked>
+                    Estados Unidos
+                </label>
+                <label>
+                    <input type="radio" name="country" disabled>
+                    China
+                </label>
+            </div>
+            <div class="control-group">
+                <h4>Selecione um esporte</h4>
+
+                <label>
+                    <input type="checkbox" name="sport">
+                    Ciclismo
+                </label>
+                <label>
+                    <input type="checkbox" name="sport" checked>
+                    Futebol
+                </label>
+                <label>
+                <input type="checkbox" name="sport" disabled>
+                    Natação
+                </label>
+                <label>
+                    <input type="checkbox" name="sport" disabled checked>
+                    Hipismo
+                </label>
+            </div>
+        </form>
+
+        <!--[if lt IE 9]>
+            <script src="../vendor/jquery-1.10.1.js"></script>
+        <![endif]-->
+
+        <!--[if gte IE 9]><!-->
+            <script src="../vendor/jquery-2.0.3.js"></script>
+        <!--<![endif]-->
+
+        <script src="../vendor/jquery-migrate.js"></script>
+        <script src="../src/js/easyCheckRadio.js"></script>
+
+        <script>
+            $(function() {
+                $('input:radio,input:checkbox').easyCheckRadio({
+                    theme: ''
+                });
+            });
+        </script>
+    </body>
+</html>

@@ -27,6 +27,10 @@
   opacity: 0;
   z-index: 2;
 }
+.easycheckradio input[type="checkbox"]:focus + div,
+.easycheckradio input[type="radio"]:focus + div {
+  outline: 1px dotted rgba(0, 0, 0, 0.5);
+}
 .easycheckradio.easycheckradio-checkbox > div {
   background-position: 0 0;
 }

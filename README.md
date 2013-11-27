@@ -52,6 +52,10 @@ Sample:
 </label>
 ```
 
+Detail: we control checked state toggling the *checked* class in the wrapper
+because IE8 doesn't support the *:checked* pseudo selector. We use this approach
+only for the disabled state which IE8 can target via ```input[disabled]```.
+
 Support
 --------------
 

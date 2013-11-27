@@ -60,7 +60,8 @@ Do you want to help? Take a look at our TODO list below.
 TODO
 --------------
 
-* Test
+* Improve unit tests
+* Test in mobile browsers
 * More themes
 * Support :indeterminate on checkboxes
 

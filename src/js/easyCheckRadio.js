@@ -19,10 +19,9 @@
                              .replace('$4', theme)
                              .replace('$5', name);
             
-            $(this)
-                .wrap(wrapper)
-                .after('<div>')
-                .addClass('easycheckradio-' + type + '-input');
+            $(this).wrap(wrapper)
+                   .after('<div>')
+                   .addClass('easycheckradio-' + type + '-input');
         });
     };
 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>easyCheckRadio test suite</title>
+        <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.12.0.css">
+        <link rel="stylesheet" href="../src/css/easyCheckRadio.css">
+    </head>
+    <body>
+        <div id="qunit"></div>
+        <div id="fixtures">
+            <form>
+                <div class="control-group">
+                    <h4>Selecione um país</h4>
+
+                    <label>
+                        <input type="radio" name="country" value="b">
+                        Brasil
+                    </label>
+                    <label>
+                        <input type="radio" name="country" value="u">
+                        Uruguai
+                    </label>
+                    <label>
+                        <input type="radio" name="country" value="e" checked>
+                        Estados Unidos
+                    </label>
+                    <label>
+                        <input type="radio" name="country" value="c" disabled>
+                        China
+                    </label>
+                </div>
+                <div class="control-group">
+                    <h4>Selecione um esporte</h4>
+
+                    <label>
+                        <input type="checkbox" name="sport" value="c">
+                        Ciclismo
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sport" value="f" checked>
+                        Futebol
+                    </label>
+                    <label>
+                    <input type="checkbox" name="sport" value="n" disabled>
+                        Natação
+                    </label>
+                    <label>
+                        <input type="checkbox" name="sport" value="h" disabled checked>
+                        Hipismo
+                    </label>
+                </div>
+            </form>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://code.jquery.com/qunit/qunit-1.12.0.js"></script>
+        <script src="../src/js/easyCheckRadio.js"></script>
+        <script src="tests.js"></script>
+    </body>
+</html>

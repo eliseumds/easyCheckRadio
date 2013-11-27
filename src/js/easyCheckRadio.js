@@ -5,11 +5,11 @@
         options = $.fn.extend({}, defaultSettings, options);
 
         $(this).each(function() {
-          var checked = this.checked ? 'checked': '',
-              disabled = this.disabled ? 'disabled' : '',
-              name = this.name,
-              theme = options.theme || '',
-              type = this.type;
+            var checked = this.checked ? 'checked': '',
+                disabled = this.disabled ? 'disabled' : '',
+                name = this.name,
+                theme = options.theme || '',
+                type = this.type;
 
             var wrapper = '<div class="easycheckradio easycheckradio-$1 $2 $3 $4" data-name="$5" />';
 
